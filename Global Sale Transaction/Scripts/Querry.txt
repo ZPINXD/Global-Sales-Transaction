@@ -1,0 +1,28 @@
+SELECT 
+    ord.Id AS OrderId,
+    CONCAT(cus.FirstName, ' ', cus.LastName) AS Customer,
+    cus.City,
+    cus.Country,
+    pro.ProductName,
+    sup.CompanyName,
+    sup.City As 'CompanyCity',
+    sup.Country AS 'CompanyCountry',
+    ord.OrderDate,
+    Sum(ordit.Quantity) As 'Total units',
+    Sum(ordit.Quantity*pro.UnitPrice) As 'Revenue'
+FROM dbo.OrderItem AS ordit
+JOIN dbo.[Order] AS ord ON ordit.OrderId = ord.Id
+JOIN dbo.Customer AS cus ON ord.CustomerId = cus.Id
+JOIN dbo.Product AS pro ON ordit.ProductId = pro.Id
+JOIN dbo.Supplier AS sup ON pro.SupplierId = sup.Id
+GROUP BY 
+    ord.Id,
+    cus.FirstName,
+    cus.LastName,
+    cus.City,
+    cus.Country,
+    pro.ProductName,
+    sup.CompanyName,
+    sup.City ,
+    sup.Country  ,
+    ord.OrderDate;
