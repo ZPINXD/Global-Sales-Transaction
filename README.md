@@ -35,8 +35,8 @@
 
 ## 🧠 Key Insights
 
-- Best-selling products are supplied by companies located in the USA, Italy, and Australia.  
-- The majority of customers are from European countries, especially Germany and France.  
+- Best-selling products are supplied by companies located in the France, Germany and Australia.  
+- The majority of customers are from Usa, Germany and Austria.  
 - Certain months show significantly higher revenue, indicating seasonal trends.  
 - Some companies consistently contribute high revenue regardless of product variety.  
 
