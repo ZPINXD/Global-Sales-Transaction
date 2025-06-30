@@ -23,6 +23,11 @@
 ---
 
 ## 📈 Dashboard Preview
+![Dashboard_preview 1](https://github.com/user-attachments/assets/b12c8546-99d2-4ab7-ab22-b46534c8c0ad)
+![Dashboard_preview 2](https://github.com/user-attachments/assets/691bb675-daf4-4532-9d12-057cbb050a92)
+![Dashboard_preview 3](https://github.com/user-attachments/assets/d922a5eb-71cf-434d-ad3f-fdf0e6a7585d)
+
+
 
 
 
