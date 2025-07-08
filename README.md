@@ -57,7 +57,7 @@
 ---
 
 ## 📌 Notes
-tableau public link: https://public.tableau.com/shared/92DNWDF47?:display_count=n&:origin=viz_share_link
+tableau public link: https://public.tableau.com/views/GlobalSalesTransactionAnalysisBasedonMultinationalData/GlobalSalesTransactionAnalysisBasedonMultinationalData?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
 This dataset and analysis are for educational and portfolio purposes only. All visualizations and insights are based on the data available for 2012 - 2014.
